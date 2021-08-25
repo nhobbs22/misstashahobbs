@@ -1,0 +1,195 @@
+body {
+ 
+  background: rgb(232,35,143);
+  background: linear-gradient(90deg, rgba(232,35,143,1) 0%, rgba(241,190,74,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(210,8,204);
+background: linear-gradient(126deg, rgba(210,8,204,1) 0%, rgba(210,8,119,1) 15%, rgba(255,26,90,1) 30%, rgba(244,108,8,1) 48%, rgba(170,16,255,1) 85%, rgba(66,83,201,1) 100%);
+  /*background: rgb(237,54,154);
+background: linear-gradient(126deg, rgba(237,54,154,1) 0%, rgba(255,196,109,1) 48%, rgba(67,242,159,1) 100%);*/
+  }
+  
+  h2 {
+    color: black; 
+    font-size: 72px;
+    font-family: 'Delius Swash Caps', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 4px;
+    font-weight: 800;
+  }
+  
+  .fadeIn {
+  animation-name: fadeIn2;
+  animation-delay: 0s;
+  animation-duration: 3s;
+  }
+
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+    }
+  
+    30% {
+      opacity: 15%;
+    }
+  
+    50% {
+        opacity: 40%;
+        letter-spacing: 8px;
+    }
+  
+    75% {
+      opacity: 70%;
+      letter-spacing: 6px;
+  }
+
+    100% {
+      opacity: 1;
+      letter-spacing: 4px;
+      
+    }
+  }
+  
+  .animateAttempt {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+h1 {
+  font-family: 'Comic Neue', cursive;
+    font-size: 4.3em;
+    letter-spacing: -4px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 68px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: white;
+  }
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+}
+h4 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 18px;
+}
+.bold {
+  font-weight: 700;
+}
+
+.comic {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.black {
+  background: #D208CC;
+  background: -webkit-linear-gradient(to right, #D208CC 0%, #D20877 29%, #FF1A5A 50%, #AA10FF 64%, #4253C9 94%);
+  background: -moz-linear-gradient(to right, #D208CC 0%, #D20877 29%, #FF1A5A 50%, #AA10FF 64%, #4253C9 94%);
+  background: linear-gradient(to right, #D208CC 0%, #D20877 29%, #FF1A5A 50%, #AA10FF 64%, #4253C9 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header {
+  padding-top: 3rem;
+}
+.smaller {
+  font-size: 48px;
+  padding-top: 10px;
+}
+
+.bigger {
+  font-weight: 20px;
+}
+
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.leFadeInLeft span { animation-name: leFadeInLeft }
+@keyframes leFadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to { opacity: 1 }
+}
+
+/*--------------------------------------Navigation---------------------------------*/
+.bg-light {
+ /* background: rgb(232,35,143);
+  background: linear-gradient(90deg, rgba(232,35,143,1) 0%, rgba(241,190,74,1) 35%, rgba(0,212,255,1) 100%)!important;
+  background: rgb(237,54,154);
+background: linear-gradient(126deg, rgba(237,54,154,1) 0%, rgba(255,196,109,1) 48%, rgba(67,242,159,1) 100%);*/ 
+opacity: .5;
+background: rgba(255, 255, 255, 0.7);
+}
+a.nav-link{
+  color:white;
+}
+
+.main {
+  margin-top: 3rem;
+    border: .0px solid #D1D1D1;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    width: 100% !important;
+    display: table;
+    width: 100%;
+    height: auto; /* For at least Firefox */
+    min-height: 100%; 
+}
+
+.title {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*---------------------------------------About ME--------------------------------------*/
+.aboutMe {
+  margin-top: 1.6rem;
+  padding-top: 2rem;
+  background-color: white;
+  border-color: rgba(255, 255, 255, 0.6);
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+  width: 80%;
+}
+
+.second {
+  display: table;
+    width: 100%;
+    height: auto; /* For at least Firefox */
+    min-height: 100%; 
+    background-color: white !important;
+}
+
+.philo {
+  padding-right:5rem;
+  padding-left:5rem;
+  padding-bottom:20px;
+}
+
+.newCol {
+  padding-bottom: 40px;
+}
+
