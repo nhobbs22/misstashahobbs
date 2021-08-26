@@ -162,6 +162,10 @@ a.nav-link{
     width: 100%;
     height: auto; /* For at least Firefox */
     min-height: 100%; 
+    background-image: url("images/stars.png"); 
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: bottom;
 }
 
 .title {
@@ -185,7 +189,9 @@ a.nav-link{
     height: auto; /* For at least Firefox */
     min-height: 100%; 
     background-color: white !important;
+    padding-bottom: 5px;
 }
+
 
 .philo {
   padding-right:5.2rem;
@@ -200,4 +206,38 @@ a.nav-link{
 .left {
   padding-left: 20px;
   padding-*/
+}
+
+/*----------------------------------------COntact me-------------------------------*/
+
+body {
+  font-family: 'Open Sans', sans-serif
+}
+
+h1 {
+  margin-bottom: 40px
+}
+
+label {
+  color: #333
+}
+
+.btn-send {
+  font-weight: 300;
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px
+}
+
+.card.bg-light {
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 1;
 }
