@@ -82,6 +82,11 @@ h4 {
   font-family: 'Comic Neue', cursive;
   font-size: 18px;
 }
+
+h5 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 36px;
+}
 .bold {
   font-weight: 700;
 }
@@ -114,7 +119,7 @@ h4 {
 }
 
 .bigger {
-  font-weight: 20px;
+  font-weight: 600;
 }
 
 
@@ -168,11 +173,10 @@ a.nav-link{
 .aboutMe {
   margin-top: 1.6rem;
   padding-top: 2rem;
-  background-color: white;
-  border-color: rgba(255, 255, 255, 0.6);
-  padding-right: 2rem !important;
-  padding-left: 2rem !important;
-  width: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  width: 85%;
 }
 
 .second {
@@ -184,8 +188,8 @@ a.nav-link{
 }
 
 .philo {
-  padding-right:5rem;
-  padding-left:5rem;
+  padding-right:5.2rem;
+  padding-left:5.2rem;
   padding-bottom:20px;
 }
 
@@ -193,3 +197,7 @@ a.nav-link{
   padding-bottom: 40px;
 }
 
+.left {
+  padding-left: 20px;
+  padding-*/
+}
